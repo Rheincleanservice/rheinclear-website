@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rheinclear - Reinigungsfirma</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0a3d62, #1e6091);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: #08304f;
+      display: flex;
+      justify-content: center;
+      padding: 12px;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      color: #0a3d62;
+      margin-bottom: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    .price-box {
+      background: white;
+      padding: 20px;
+      border-left: 5px solid #0a3d62;
+      margin-bottom: 15px;
+      border-radius: 8px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .btn-primary {
+      background: #0a3d62;
+      color: white;
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: white;
+    }
+
+    footer {
+      background: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Rheinclear</h1>
+  <p>Ihre professionelle Reinigungsfirma in Düsseldorf & Umgebung</p>
+
+  <a class="btn btn-whatsapp" href="https://wa.me/491234567890" target="_blank">
+    WhatsApp Anfrage
+  </a>
+</header>
+
+<nav>
+  <a href="#services">Leistungen</a>
+  <a href="#prices">Preise</a>
+  <a href="#about">Über uns</a>
+  <a href="#contact">Kontakt</a>
+</nav>
+
+<section id="services">
+  <h2>Unsere Leistungen</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Gebäudereinigung</h3>
+      <p>Büros, Häuser und Gewerbeflächen sauber und zuverlässig.</p>
+    </div>
+
+    <div class="card">
+      <h3>Fensterreinigung</h3>
+      <p>Streifenfreie Fenster für perfekte Sicht.</p>
+    </div>
+
+    <div class="card">
+      <h3>Treppenhausreinigung</h3>
+      <p>Saubere Eingangsbereiche für einen guten ersten Eindruck.</p>
+    </div>
+  </div>
+</section>
+
+<section id="prices">
+  <h2>Preise</h2>
+
+  <div class="price-box">
+    <strong>Privathaushalt Reinigung</strong><br>
+    ab 25€ / Stunde
+  </div>
+
+  <div class="price-box">
+    <strong>Büroreinigung</strong><br>
+    ab 30€ / Stunde
+  </div>
+
+  <div class="price-box">
+    <strong>Fensterreinigung</strong><br>
+    ab 5€ pro Fenster
+  </div>
+</section>
+
+<section id="about">
+  <h2>Über Rheinclear</h2>
+  <p>
+    Rheinclear steht für zuverlässige und professionelle Reinigung in Düsseldorf und Umgebung.
+    Wir arbeiten schnell, gründlich und zu fairen Preisen.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Kontakt</h2>
+
+  <p>📞 Telefon: 01234 567890</p>
+  <p>📧 E-Mail: info@rheinclear.de</p>
+
+  <a class="btn btn-primary" href="mailto:info@rheinclear.de">E-Mail senden</a>
+</section>
+
+<footer>
+  © 2026 Rheinclear – Alle Rechte vorbehalten
+</footer>
+
+</body>
+</html>
