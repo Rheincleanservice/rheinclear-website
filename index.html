@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rheinclear - Reinigungsfirma</title>
+  <title>RheinClean - Reinigungsservice NRW</title>
 
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f4f6f8;
+      background: #f5f7fa;
       color: #222;
     }
 
@@ -17,11 +17,11 @@
       background: linear-gradient(135deg, #0a3d62, #1e6091);
       color: white;
       text-align: center;
-      padding: 60px 20px;
+      padding: 80px 20px;
     }
 
     header h1 {
-      font-size: 48px;
+      font-size: 52px;
       margin: 0;
     }
 
@@ -31,12 +31,25 @@
       opacity: 0.9;
     }
 
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 22px;
+      border-radius: 8px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     nav {
       background: #08304f;
       display: flex;
       justify-content: center;
-      padding: 12px;
       gap: 20px;
+      padding: 12px;
+      position: sticky;
+      top: 0;
     }
 
     nav a {
@@ -53,13 +66,13 @@
 
     h2 {
       color: #0a3d62;
-      margin-bottom: 20px;
     }
 
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
+      margin-top: 20px;
     }
 
     .card {
@@ -69,38 +82,18 @@
       box-shadow: 0 5px 15px rgba(0,0,0,0.08);
     }
 
-    .price-box {
-      background: white;
+    .highlight {
+      background: #eaf3fb;
       padding: 20px;
-      border-left: 5px solid #0a3d62;
-      margin-bottom: 15px;
-      border-radius: 8px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 12px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 10px;
-    }
-
-    .btn-primary {
-      background: #0a3d62;
-      color: white;
-    }
-
-    .btn-whatsapp {
-      background: #25D366;
-      color: white;
+      border-radius: 12px;
+      margin-top: 20px;
     }
 
     footer {
       background: #0a3d62;
       color: white;
       text-align: center;
-      padding: 25px;
+      padding: 20px;
       margin-top: 40px;
     }
   </style>
@@ -109,18 +102,18 @@
 <body>
 
 <header>
-  <h1>Rheinclear</h1>
-  <p>Ihre professionelle Reinigungsfirma in Düsseldorf & Umgebung</p>
+  <h1>RheinClean</h1>
+  <p>Reinigungsservice für Düsseldorf • Köln • Leverkusen & Umgebung</p>
 
-  <a class="btn btn-whatsapp" href="https://wa.me/491234567890" target="_blank">
-    WhatsApp Anfrage
+  <a class="btn" href="https://wa.me/4915785705163">
+    WhatsApp Kontakt
   </a>
 </header>
 
 <nav>
   <a href="#services">Leistungen</a>
-  <a href="#prices">Preise</a>
   <a href="#about">Über uns</a>
+  <a href="#why">Warum wir</a>
   <a href="#contact">Kontakt</a>
 </nav>
 
@@ -130,59 +123,53 @@
   <div class="grid">
     <div class="card">
       <h3>Gebäudereinigung</h3>
-      <p>Büros, Häuser und Gewerbeflächen sauber und zuverlässig.</p>
+      <p>Büros, Häuser und Gewerbeflächen in ganz NRW.</p>
     </div>
 
     <div class="card">
       <h3>Fensterreinigung</h3>
-      <p>Streifenfreie Fenster für perfekte Sicht.</p>
+      <p>Streifenfrei und professionell – innen & außen.</p>
     </div>
 
     <div class="card">
       <h3>Treppenhausreinigung</h3>
-      <p>Saubere Eingangsbereiche für einen guten ersten Eindruck.</p>
+      <p>Saubere Eingänge für Mehrfamilienhäuser.</p>
     </div>
   </div>
 </section>
 
-<section id="prices">
-  <h2>Preise</h2>
-
-  <div class="price-box">
-    <strong>Privathaushalt Reinigung</strong><br>
-    ab 25€ / Stunde
-  </div>
-
-  <div class="price-box">
-    <strong>Büroreinigung</strong><br>
-    ab 30€ / Stunde
-  </div>
-
-  <div class="price-box">
-    <strong>Fensterreinigung</strong><br>
-    ab 5€ pro Fenster
-  </div>
-</section>
-
 <section id="about">
-  <h2>Über Rheinclear</h2>
+  <h2>Über RheinClean</h2>
   <p>
-    Rheinclear steht für zuverlässige und professionelle Reinigung in Düsseldorf und Umgebung.
+    RheinClean bietet zuverlässige Reinigungsdienste in Düsseldorf, Köln und Leverkusen.
     Wir arbeiten schnell, gründlich und zu fairen Preisen.
   </p>
+</section>
+
+<section id="why">
+  <h2>Warum RheinClean?</h2>
+
+  <div class="highlight">
+    ✔ Zuverlässig & pünktlich<br>
+    ✔ Faire Preise ohne versteckte Kosten<br>
+    ✔ Flexible Termine auch kurzfristig<br>
+    ✔ Privat & Gewerbe
+  </div>
 </section>
 
 <section id="contact">
   <h2>Kontakt</h2>
 
-  <p>📞 Telefon: 01234 567890</p>
-  <p>📧 E-Mail: info@rheinclear.de</p>
+  <p>📞 Telefon: 015785705163</p>
+  <p>📧 E-Mail: Kontakt.rheincleanservice@gmail.com</p>
 
-  <a class="btn btn-primary" href="mailto:info@rheinclear.de">E-Mail senden</a>
+  <a class="btn" href="mailto:Kontakt.rheincleanservice@gmail.com">
+    E-Mail senden
+  </a>
 </section>
 
 <footer>
-  © 2026 Rheinclear – Alle Rechte vorbehalten
+  © 2026 RheinClean – Alle Rechte vorbehalten
 </footer>
 
 </body>
